@@ -1,8 +1,11 @@
---Local'imizde repo oluşturabilmek için 
-1-Çalışacağımız klasörü seçip yada yeni bir klasör oluşturup, klasörün yolunu gösteren bölüme cmd yazip enter yapip acmis oldugumuz klasorun yolunda terminalimizi acmıs oluruz.
-2-Ve bu dizinde acilan terminale GİT İNİT küçük harflerle yazariz ve initilaze empty git repository yazisini gördüğümüzde bu çalışma alanınızda boş bir repository oluşturmuş oluruz.
-3-Git init yaptıktan sonraki çalışma alanımızın ismine Working space denir. 
-4-Git add .komutuyla working space'de ki kodlarımızı stageing area dediğimiz bekleme alanına taşırız
-5-Git commit -m "version adı" kodunu yazarak stage'deki kodlarımızdan version oluşturmuş oluruz.
-6-working space ve stage'de kodlarımın durumunu görmek için git status komutunu kullanırız
-7-commit store(yani versiyon oluşturduğumuz yer) daki versiyonlaraımızı görmek için de git log --oneline komutunu kullanırız.
+--Local'imizde repo oluşturabilmek için
+1-Çalışacağımız klazörü seçip yada yeni bir klasör oluşturup, klasörün yolunu gösteren bölüme cmd yazıp
+enter yapıp açmış olduğumuz klasörün yolunda terminalimizi açmış oluruz
+2-Ve bu dizinde açılan terminale GİT INIT küçük harflerler yazarız ve initilaze empty git repository yazısını
+gördüğümüzde bu çalışma alanımızda boş bir repository oluşturmuş oluruz.
+3-Git init yaptıktan sonraki çalışma alanımızın ismine Working space denir.
+4-git add . komutuyla working space'de ki kodlarımızı staging area dediğimiz bekleme alanına taşırız
+5-git commit -m "version adı" kodunu yazarak stage'deki kodlarımızdan version oluşturmuş oluruz.
+6-working space ve stage'de kodlarımızın durumunu görmek için git status komutunu kullanırız.
+7-commit stora(yani versiyon oluşturduğumuz yer) daki versiyonlarımızı görmek için de git log --oneline komutunu kullanırız
+8-Oluşturmuş olduğumuz versiyonu github'a gönderebilmek için git push <github repository adresi> yada devamlı kullanıcağımız bir repoysa git remote add origin <repo adresi>/git push -u master komutuyla github'a gönderebiliriz
